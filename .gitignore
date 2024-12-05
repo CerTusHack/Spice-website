@@ -1,0 +1,7 @@
+
+backend/.vs/slnx.sqlite
+backend/package-lock.json
+frontend/frontend/package-lock.json
+backend/yarn.lock
+frontend/frontend/yarn.lock
+/backend/node_modules
