@@ -1,0 +1,22 @@
+{
+   "name": "backend",
+   "version": "1.0.0",
+   "description": "Threat system of $SPICE",
+   "dependencies": {
+      "@solana/web3.js": "^1.87.6",
+      "@tailwindcss/forms": "^0.5.7",
+      "@walletconnect/web3-provider": "^1.8.0",
+      "axios": "^1.6.5",
+      "dotenv": "^16.4.7",
+      "express": "^4.21.1",
+      "mongoose": "^8.8.3",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-router-dom": "^6.21.1",
+      "tailwindcss": "^3.4.1"
+   },
+   "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+   }
+}

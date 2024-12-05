@@ -1,0 +1,108 @@
+/* Leaderboard.css */
+
+/* General container styling */
+.leaderboard-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Loading and error message containers */
+.loading-container,
+.error-container,
+.empty-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.loading-text,
+.error-message,
+.empty-message {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Table container styling */
+.leaderboard-table-container {
+  overflow-x: auto;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  color: #333;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.leaderboard-table thead tr {
+  background-color: #4caf50; /* Dark green */
+  color: #fff;
+  text-align: left;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.leaderboard-table tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+.leaderboard-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for alternate rows */
+}
+
+.leaderboard-table tbody tr:hover {
+  background-color: #eafaf1; /* Soft green highlight on hover */
+}
+
+.public-key {
+  font-family: monospace;
+  font-weight: bold;
+  color: #4caf50; /* Dark green */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .leaderboard-title {
+    font-size: 1.5rem;
+  }
+
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .leaderboard-container {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .leaderboard-title {
+    font-size: 1.2rem;
+  }
+
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+}

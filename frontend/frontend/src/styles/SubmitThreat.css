@@ -1,0 +1,107 @@
+.submit-threat-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submit-threat-hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.submit-threat-hero h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.hero-description {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.submit-threat-form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.connect-wallet-prompt {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.connect-wallet-btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.connect-wallet-btn:hover {
+  background-color: #0056b3;
+}
+
+.wallet-info {
+  text-align: center;
+}
+
+.wallet-address,
+.token-balance {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.threat-description {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+.submit-btn.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.success-message {
+  color: #2ecc71;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 20px;
+}

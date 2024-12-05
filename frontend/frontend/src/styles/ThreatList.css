@@ -1,0 +1,98 @@
+/* General Threat List Styling */
+.threat-list-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.threat-list-title {
+  font-size: 2rem;
+  color: #ffd700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.filter-input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 60%;
+  max-width: 400px;
+  border: 2px solid #ffd700;
+  border-radius: 5px;
+}
+
+.filter-input:focus {
+  outline: none;
+  border-color: #ffa500;
+}
+
+.status-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+
+.threat-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.threat-card {
+  background: #1e1e2f;
+  color: #ffffff;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.threat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
+}
+
+.threat-card h3 {
+  font-size: 1.5rem;
+  color: #ffd700;
+}
+
+.threat-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 10px 0;
+  color: #cccccc;
+}
+
+.threat-metadata {
+  font-size: 0.9rem;
+  margin: 5px 0;
+  color: #aaaaaa;
+}
+
+.details-button {
+  background: #ffd700;
+  color: #1e1e2f;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.details-button:hover {
+  background: #ffa500;
+}

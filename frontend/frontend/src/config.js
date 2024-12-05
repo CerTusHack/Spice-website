@@ -1,0 +1,6 @@
+const CONFIG = {
+  BACKEND_URL: process.env.REACT_APP_BACKEND_URL,
+  TOKEN_CONTRACT_ADDRESS: process.env.REACT_APP_TOKEN_CONTRACT_ADDRESS,
+};
+
+export default CONFIG;

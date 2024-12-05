@@ -1,0 +1,84 @@
+.about-container {
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  background: linear-gradient(120deg, #ff9900, #ff5e62);
+  text-align: center;
+}
+
+.about-hero {
+  margin-bottom: 2rem;
+  padding: 2rem 1rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.about-subtitle {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.about-card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 350px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.about-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.about-call-to-action {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.about-call-to-action h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-call-to-action p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-cta-button {
+  background: #ffffff;
+  color: #ff5e62;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-cta-button:hover {
+  background: #ff5e62;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
